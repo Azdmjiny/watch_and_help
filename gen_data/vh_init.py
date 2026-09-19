@@ -35,7 +35,7 @@ parser.add_argument('--use-editor', action='store_true', default=False, help='Us
 parser.add_argument('--unseen-item', action='store_true', default=False, help='Use unity editor')
 parser.add_argument('--unseen-apartment', action='store_true', default=False, help='Use unity editor')
 parser.add_argument('--exec_file', type=str,
-                    default='./vh/vh_sim/simulation/unity_simulator/v2.2.5/linux_exec.v2.2.5_beta.x86_64',
+                    default='./vh/vh_sim/simulation/unity_simulator/linux_exec.v2.3.0.x86_64',
                     help='Use unity editor')
 
 if __name__ == "__main__":
@@ -333,7 +333,6 @@ if __name__ == "__main__":
         else:
             pickle.dump(env_task_set, open(f'./vh/dataset/env_task_set_{args.num_per_apartment}_{args.mode}_seen.pik', 'wb'))
     # pickle.dump(env_task_set, open(f'{curr_dir}/dataset/env_task_set_{args.num_per_apartment}_{args.mode}.pik', 'wb'))
-
 
 
 

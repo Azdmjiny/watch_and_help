@@ -285,7 +285,7 @@ def get_args():
     # Exec args
     parser.add_argument(
         '--executable_file', type=str,
-        default='./vh/vh_sim/simulation/unity_simulator/v2.2.5/linux_exec.v2.2.5_beta.x86_64')
+        default='./vh/vh_sim/simulation/unity_simulator/linux_exec.v2.3.0.x86_64')
 
 
     parser.add_argument(
